@@ -8,23 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		1F09BFE72B19AFBD009819C1 /* MicrochatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09BFE62B19AFBD009819C1 /* MicrochatApp.swift */; };
-		1F09BFE92B19AFBE009819C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09BFE82B19AFBE009819C1 /* ContentView.swift */; };
 		1F09BFEB2B19AFBF009819C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F09BFEA2B19AFBF009819C1 /* Assets.xcassets */; };
 		1F09BFEE2B19AFBF009819C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F09BFED2B19AFBF009819C1 /* Preview Assets.xcassets */; };
 		1F09BFF82B19AFBF009819C1 /* MicrochatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09BFF72B19AFBF009819C1 /* MicrochatTests.swift */; };
-		1F09C0022B19AFBF009819C1 /* MicrochatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09C0012B19AFBF009819C1 /* MicrochatUITests.swift */; };
-		1F09C0042B19AFBF009819C1 /* MicrochatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09C0032B19AFBF009819C1 /* MicrochatUITestsLaunchTests.swift */; };
+		1F09C0122B19B004009819C1 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 1F09C0112B19B004009819C1 /* ComposableArchitecture */; };
+		1F09C0172B19B093009819C1 /* MessageBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09C0162B19B093009819C1 /* MessageBubbleView.swift */; };
+		1F09C0192B19BE48009819C1 /* Conversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09C0182B19BE48009819C1 /* Conversation.swift */; };
+		1F09C01B2B19BE83009819C1 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09C01A2B19BE83009819C1 /* Message.swift */; };
+		1F09C01E2B19C143009819C1 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09C01D2B19C143009819C1 /* ChatView.swift */; };
+		1F09C0202B19C14E009819C1 /* ChatFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09C01F2B19C14E009819C1 /* ChatFeature.swift */; };
+		1F09C0222B19C165009819C1 /* ChatClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F09C0212B19C165009819C1 /* ChatClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		1F09BFF42B19AFBF009819C1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1F09BFDB2B19AFBD009819C1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1F09BFE22B19AFBD009819C1;
-			remoteInfo = Microchat;
-		};
-		1F09BFFE2B19AFBF009819C1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1F09BFDB2B19AFBD009819C1 /* Project object */;
 			proxyType = 1;
@@ -36,14 +33,16 @@
 /* Begin PBXFileReference section */
 		1F09BFE32B19AFBD009819C1 /* Microchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Microchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F09BFE62B19AFBD009819C1 /* MicrochatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrochatApp.swift; sourceTree = "<group>"; };
-		1F09BFE82B19AFBE009819C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F09BFEA2B19AFBF009819C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F09BFED2B19AFBF009819C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1F09BFF32B19AFBF009819C1 /* MicrochatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicrochatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F09BFF72B19AFBF009819C1 /* MicrochatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrochatTests.swift; sourceTree = "<group>"; };
-		1F09BFFD2B19AFBF009819C1 /* MicrochatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicrochatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F09C0012B19AFBF009819C1 /* MicrochatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrochatUITests.swift; sourceTree = "<group>"; };
-		1F09C0032B19AFBF009819C1 /* MicrochatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrochatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1F09C0162B19B093009819C1 /* MessageBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubbleView.swift; sourceTree = "<group>"; };
+		1F09C0182B19BE48009819C1 /* Conversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversation.swift; sourceTree = "<group>"; };
+		1F09C01A2B19BE83009819C1 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		1F09C01D2B19C143009819C1 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		1F09C01F2B19C14E009819C1 /* ChatFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatFeature.swift; sourceTree = "<group>"; };
+		1F09C0212B19C165009819C1 /* ChatClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,17 +50,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F09C0122B19B004009819C1 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1F09BFF02B19AFBF009819C1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F09BFFA2B19AFBF009819C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,7 +69,6 @@
 			children = (
 				1F09BFE52B19AFBD009819C1 /* Microchat */,
 				1F09BFF62B19AFBF009819C1 /* MicrochatTests */,
-				1F09C0002B19AFBF009819C1 /* MicrochatUITests */,
 				1F09BFE42B19AFBD009819C1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,7 +78,6 @@
 			children = (
 				1F09BFE32B19AFBD009819C1 /* Microchat.app */,
 				1F09BFF32B19AFBF009819C1 /* MicrochatTests.xctest */,
-				1F09BFFD2B19AFBF009819C1 /* MicrochatUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,7 +86,9 @@
 			isa = PBXGroup;
 			children = (
 				1F09BFE62B19AFBD009819C1 /* MicrochatApp.swift */,
-				1F09BFE82B19AFBE009819C1 /* ContentView.swift */,
+				1F09C01C2B19C0F5009819C1 /* Chat */,
+				1F09C0152B19B075009819C1 /* UI */,
+				1F09C0132B19B05C009819C1 /* Models */,
 				1F09BFEA2B19AFBF009819C1 /* Assets.xcassets */,
 				1F09BFEC2B19AFBF009819C1 /* Preview Content */,
 			);
@@ -118,13 +111,31 @@
 			path = MicrochatTests;
 			sourceTree = "<group>";
 		};
-		1F09C0002B19AFBF009819C1 /* MicrochatUITests */ = {
+		1F09C0132B19B05C009819C1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				1F09C0012B19AFBF009819C1 /* MicrochatUITests.swift */,
-				1F09C0032B19AFBF009819C1 /* MicrochatUITestsLaunchTests.swift */,
+				1F09C0182B19BE48009819C1 /* Conversation.swift */,
+				1F09C01A2B19BE83009819C1 /* Message.swift */,
 			);
-			path = MicrochatUITests;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1F09C0152B19B075009819C1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1F09C0162B19B093009819C1 /* MessageBubbleView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1F09C01C2B19C0F5009819C1 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				1F09C01D2B19C143009819C1 /* ChatView.swift */,
+				1F09C01F2B19C14E009819C1 /* ChatFeature.swift */,
+				1F09C0212B19C165009819C1 /* ChatClient.swift */,
+			);
+			path = Chat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +154,9 @@
 			dependencies = (
 			);
 			name = Microchat;
+			packageProductDependencies = (
+				1F09C0112B19B004009819C1 /* ComposableArchitecture */,
+			);
 			productName = Microchat;
 			productReference = 1F09BFE32B19AFBD009819C1 /* Microchat.app */;
 			productType = "com.apple.product-type.application";
@@ -165,24 +179,6 @@
 			productReference = 1F09BFF32B19AFBF009819C1 /* MicrochatTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1F09BFFC2B19AFBF009819C1 /* MicrochatUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1F09C00D2B19AFBF009819C1 /* Build configuration list for PBXNativeTarget "MicrochatUITests" */;
-			buildPhases = (
-				1F09BFF92B19AFBF009819C1 /* Sources */,
-				1F09BFFA2B19AFBF009819C1 /* Frameworks */,
-				1F09BFFB2B19AFBF009819C1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1F09BFFF2B19AFBF009819C1 /* PBXTargetDependency */,
-			);
-			name = MicrochatUITests;
-			productName = MicrochatUITests;
-			productReference = 1F09BFFD2B19AFBF009819C1 /* MicrochatUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,10 +196,6 @@
 						CreatedOnToolsVersion = 15.0;
 						TestTargetID = 1F09BFE22B19AFBD009819C1;
 					};
-					1F09BFFC2B19AFBF009819C1 = {
-						CreatedOnToolsVersion = 15.0;
-						TestTargetID = 1F09BFE22B19AFBD009819C1;
-					};
 				};
 			};
 			buildConfigurationList = 1F09BFDE2B19AFBD009819C1 /* Build configuration list for PBXProject "Microchat" */;
@@ -215,13 +207,15 @@
 				Base,
 			);
 			mainGroup = 1F09BFDA2B19AFBD009819C1;
+			packageReferences = (
+				1F09C0102B19B004009819C1 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 1F09BFE42B19AFBD009819C1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				1F09BFE22B19AFBD009819C1 /* Microchat */,
 				1F09BFF22B19AFBF009819C1 /* MicrochatTests */,
-				1F09BFFC2B19AFBF009819C1 /* MicrochatUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -243,13 +237,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F09BFFB2B19AFBF009819C1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -257,8 +244,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F09BFE92B19AFBE009819C1 /* ContentView.swift in Sources */,
+				1F09C0192B19BE48009819C1 /* Conversation.swift in Sources */,
+				1F09C0222B19C165009819C1 /* ChatClient.swift in Sources */,
+				1F09C01B2B19BE83009819C1 /* Message.swift in Sources */,
 				1F09BFE72B19AFBD009819C1 /* MicrochatApp.swift in Sources */,
+				1F09C0202B19C14E009819C1 /* ChatFeature.swift in Sources */,
+				1F09C01E2B19C143009819C1 /* ChatView.swift in Sources */,
+				1F09C0172B19B093009819C1 /* MessageBubbleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,15 +262,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F09BFF92B19AFBF009819C1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F09C0022B19AFBF009819C1 /* MicrochatUITests.swift in Sources */,
-				1F09C0042B19AFBF009819C1 /* MicrochatUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -286,11 +269,6 @@
 			isa = PBXTargetDependency;
 			target = 1F09BFE22B19AFBD009819C1 /* Microchat */;
 			targetProxy = 1F09BFF42B19AFBF009819C1 /* PBXContainerItemProxy */;
-		};
-		1F09BFFF2B19AFBF009819C1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1F09BFE22B19AFBD009819C1 /* Microchat */;
-			targetProxy = 1F09BFFE2B19AFBF009819C1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -512,42 +490,6 @@
 			};
 			name = Release;
 		};
-		1F09C00E2B19AFBF009819C1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8Q5A7FFBM5;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ai.gosign.MicrochatUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Microchat;
-			};
-			name = Debug;
-		};
-		1F09C00F2B19AFBF009819C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 8Q5A7FFBM5;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ai.gosign.MicrochatUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Microchat;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -578,16 +520,26 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F09C00D2B19AFBF009819C1 /* Build configuration list for PBXNativeTarget "MicrochatUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1F09C00E2B19AFBF009819C1 /* Debug */,
-				1F09C00F2B19AFBF009819C1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1F09C0102B19B004009819C1 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1F09C0112B19B004009819C1 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1F09C0102B19B004009819C1 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1F09BFDB2B19AFBD009819C1 /* Project object */;
 }
